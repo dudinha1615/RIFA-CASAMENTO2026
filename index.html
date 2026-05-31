@@ -153,17 +153,19 @@
       color:#4d2c13;
     }
 
-    .premio{
+ .premio{
   width:100%;
-  max-width:250px; /* diminui a imagem */
+  max-width:150px;
   height:auto;
   display:block;
-  margin:20px auto;
+  margin:15px auto;
   border-radius:12px;
 }
 
-.premio{
-  max-width:190px; /* menor ainda no celular */
+@media(max-width:600px){
+  .premio{
+    max-width:120px;
+  }
 }
 
     @media(max-width:600px){
@@ -212,7 +214,7 @@
 
     <h1>RIFA BENEFICENTE</h1>
     <h2>Daniel & Emanuelli</h2>
-   <img src="imagem/ada4b42f-87af-4b2c-aa28-50c13deb1ec5.jpg" alt="PREMIO">
+   <img src="imagem/ada4b42f-87af-4b2c-aa28-50c13deb1ec5.jpg" alt="premio" class="premio">
 
   
 
